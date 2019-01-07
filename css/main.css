@@ -1,0 +1,35 @@
+html {
+  background-color: #495562;
+  color: #fff;
+}
+
+.main-img {
+  max-height: 500px;
+}
+
+.btn-main {
+  color: #efefef;
+  font-weight: bold;
+  border-color: #97a49b;
+}
+
+.btn-main:hover {
+  background-color: #efefef;
+  border-color: #efefef;
+  color: rgba(73, 85, 98, .9);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .btn-main {
+   text-align: right;
+   margin-top: auto;
+   margin-bottom: auto;
+  }
+
+}
+@media only screen and (min-width: 60em) {
+
+
+
+}
