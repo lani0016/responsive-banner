@@ -8,17 +8,9 @@ html {
   max-height: 500px;
 }
 
-.main-banner {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(73, 85, 98, .9));
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .btn-main {
   color: #efefef;
   border-color: #97a49b;
-  background-color: #495562;
 }
 
 .btn-main:hover {
@@ -29,8 +21,15 @@ html {
 
 @media only screen and (min-width: 38em) {
 
-  .btn-main {
+  .btn-main-2 {
     text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .main-content {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(73, 85, 98, .9));
+    width: 100%;
   }
 
 }
